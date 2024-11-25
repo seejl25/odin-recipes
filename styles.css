@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-weight: 800;
+    text-align: center;
+    color: lemonchiffon;
+    background-color: black;
+}
+
+.food.title {
+    font-size: 48px;
+}
+
+.description {
+    font-style: italic;
+    background-color: lemonchiffon;
+}
+
+.list {
+    background-color: lemonchiffon;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.unordered.list {
+    font-size: 20px;
+}
