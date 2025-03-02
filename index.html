@@ -3,16 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recipe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Odin recipes</h1>
-    <ul>
-        <li><a href="recipes/chickenrice.html">Chicken Rice</a></li>
-        <li><a href="recipes/scrambledeggrice.html">Scrambled egg rice with prawn</a></li>
-        <li><a href="recipes/salmon.html">Creamy lemon salmon</a></li>
-    </ul>
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">RecipeLand</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>        
+    </nav>
+
+    <section id="home">
+        <div class="hero-content">
+            <h1>Tired of eating out? <br> Not sure what to cook?</h1>
+            <p>Here at RecipeLand, we provide the best and easy recipes for you to cook for yourself and your loved ones</p>
+            <button><a href="#menu" class="btn">Start cooking</a></button>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Recipes</h2>
+        <div class="menu-grid">
+            <div class="menu-items">
+                <img src="./recipes/chickenrice.jpg" alt="">
+                <h3><a href="./recipes/chickenrice.html">Chicken Rice</a></h3>
+                <p>Why did the chicken cross the road?</p>
+            </div>
+            <div class="menu-items">
+                <img src="./recipes/salmon.jpeg" alt="">
+                <h3><a href="./recipes/salmon.html">Salmon with Rice</a></h3>
+                <p>I need salmon like you</p>
+            </div>
+            <div class="menu-items">
+                <img src="./recipes/scrambledeggrice.jpg" alt="">
+                <h3><a href="./recipes/scrambledeggrice.html">Scrambled Egg Rice</a></h3>
+                <p>Wow, so eggs-quisite</p>
+            </div>
+        </div>
+    </section>
     
+    <section id="contact">
+        <p>Want to contribute your own recipes? Have any questions?</p>
+        <p>Feel free to drop us a message</p>
+        <div class="button">
+            <button class="message"><a href="./contact.html">Contact us</a></button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
