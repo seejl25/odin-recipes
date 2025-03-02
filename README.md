@@ -1,2 +1,2 @@
 # odin-recipes
-Creating a recipe website using html for TheOdinProject
+Creating a recipe website using html and css for TheOdinProject
